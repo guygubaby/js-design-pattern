@@ -1,0 +1,21 @@
+{
+  "name": "js-design-pattern",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@bryce-loskie/eslint-config": "^0.6.0",
+    "@types/jest": "^26.0.24",
+    "@types/node": "^16.4.0",
+    "eslint": "^7.31.0",
+    "jest": "^27.0.6",
+    "ts-jest": "^27.0.4",
+    "typescript": "^4.3.5"
+  }
+}
