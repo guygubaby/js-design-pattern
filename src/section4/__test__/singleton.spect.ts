@@ -1,8 +1,16 @@
-import { testFunc } from '../singleton'
+import { getSingleton } from '../singleton'
 
-describe('test jest config', () => {
-  it('should print 123', () => {
-    const res = testFunc()
-    expect(res).toEqual(123)
+const createPerson = () => {
+  const person = Object.create(null)
+  person.name = 'bryce'
+  return person
+}
+
+describe('test singleton', () => {
+  it('it should be the same object', () => {
+    const createPersonSingleton = getSingleton(createPerson)
+    const p1 = createPersonSingleton()
+    const p2 = createPersonSingleton()
+    expect(p1).toEqual(p2)
   })
 })
