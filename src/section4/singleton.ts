@@ -1,4 +1,3 @@
-
 export const getSingleton = (fn: Function) => {
   let result: unknown
   return function(...args: unknown[]) {
