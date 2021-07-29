@@ -8,3 +8,4 @@
 
 4. section 7 [iterator](/src/section7/README.md)
 
+5. section 8 [event](/src/section8/README.md)
